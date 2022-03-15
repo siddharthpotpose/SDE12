@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    height: 1000px;
+    width: 1200px;
+    background-color: aqua;
+    margin: auto;
+}
+.header {
+    background-color: rgb(236, 26, 131);
+    height:150px ;
+    width: 1200px;
+}
+.branding {
+    background-color: blueviolet;
+    height:150px ;
+    width: 400px;
+    float: left;
+}
+.branding img {
+    height: 150px;
+    width: 400px;
+}
+
+.socialmedia {
+    background-color: rgb(248, 242, 242);
+    height:100px ;
+    width: 800px;
+    float: left;
+}
+.socialmedia>img {
+    height:80px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 5px;
+    padding: 10px;
+
+    
+
+}
+.menu {
+    background-color: rgb(174, 147, 248);
+    height:50px ;
+    width: 800px;
+    float: left;
+}
+.menu ul li {
+    float: left;
+    list-style: none;
+    display: block;
+    background-color: rgb(49, 245, 235);
+    margin-left:10px;
+    height: 40px;
+    width: 190px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 40px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: red;
+}
+.menu ul li:hover {
+    background-color: black;
+}
+.content {
+    background-color: rgb(243, 156, 26);
+    height:800px;
+    width: 1200px;
+}
+.gallary {
+    height: 400px;
+    width: 1200px;
+    background-color: azure;
+    overflow:scroll;
+}
+.gallary img {
+    height: 400px;
+    width: 1200px;
+    
+}
+.courses {
+    height: 400px;
+    width:1200px ;
+    background-color: rgb(229, 159, 238);
+}
+.bootcamp {
+    height: 400px;
+    width:300px ;
+    background-color: rgb(240, 16, 16);
+    float: left;
+}
+.bootcamp ul li{
+    text-align: center;
+    line-height: 50px;
+    list-style: none;
+    margin-top: 35px;
+    background-color: rgb(253, 253, 243);
+}
+.cloudcomputing {
+    height:400px ;
+    width: 300px;
+    background-color:rgb(247, 11, 11) ;
+    float: left;
+}
+.cloudcomputing img {
+    height: 400px;
+    width: 300px;
+}
+.datascience {
+    height:400px;
+    width: 300px;
+    background-color:rgb(240, 11, 11);
+    float: left;
+}
+.datascience ul li {
+    text-align: center;
+    list-style: none ;
+    line-height: 50px;
+    margin-top: 35px;
+    background-color: rgb(253, 243, 243);
+
+}
+.systemdesign {
+    height: 400px;
+    width: 300px;
+    background-color: brown;
+    float: left;
+}
+.systemdesign img {
+    height: 400px;
+    width: 300px;
+}
+.footer {
+    background-color: rgb(253, 136, 136);
+    height:50px;
+    width: 1200px;;
+}
+.footer h3 {
+    text-align: center;
+    line-height: 50px;
+}

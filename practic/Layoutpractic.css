@@ -37,9 +37,7 @@
     margin-top: 5px;
     padding: 10px;
 
-    
-
-}
+} 
 .menu {
     background-color: rgb(174, 147, 248);
     height:50px ;
@@ -85,6 +83,11 @@
     height: 400px;
     width:1200px ;
     background-color: rgb(229, 159, 238);
+}
+
+.courses ul li :hover {
+    background-color: rgb(170, 238, 235);
+    
 }
 .bootcamp {
     height: 400px;

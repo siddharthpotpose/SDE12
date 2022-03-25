@@ -1,0 +1,19 @@
+.grid-container {
+    width: 80%;
+    height: 80vh;
+    margin: 5% 10%;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.grid-item {
+    
+   min-height: 200px;
+    background-color: blueviolet;
+}
+.grid-item-1 {
+    grid-row-start:1;
+    grid-row-end: 3;
+   
+}

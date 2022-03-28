@@ -2,7 +2,7 @@
     width: 80%;
     height: 80vh;
     margin: 5% 10%;
-    background-color: aqua;
+    background-color: rgb(3, 20, 20);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -14,6 +14,6 @@
 }
 .grid-item-1 {
     grid-row-start:1;
-    grid-row-end: 3;
+    grid-row-end: 3 ;
    
 }

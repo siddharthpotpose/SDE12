@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP COMPONENT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col">
+                <div class="button-group mb-5">
+                    <p class="display-5">Button Group</p>
+                    <div class="btn-group">
+                        <button class="btn btn-primary">button 1</button>
+                        <button class="btn btn-primary">button 2</button>
+                        <button class="btn btn-primary">button 3</button>
+                    </div>
+                </div>
+                <div class="card-example">
+                    <p class="display-5">card</p>
+                    <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="/image/shin2.jpg" alt="">
+                            <div class="card-body">
+                            <div class="card-header">
+                                <h4 class="card-title">card head</h4>
+                                <h5 class="text-muted">sub-heading</h5>
+                            </div>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae laudantium corrupti tempore nisi, dolorem at illo iure fuga molestiae voluptate, quisquam perferendis ut minima quia incidunt possimus asperiores aliquam.
+        
+                            </p>
+                            <a href="#" class="card-link">prev</a>
+                            <a href="#" class="card-link">next</a> <br>
+                            <button class="btn btn-primary">save</button>
+                        </div>
+                    
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="collapse-example mb-5">
+                    <p class="display-5">collapse</p>
+                    <button class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#mydiv">click hear...</button>
+                    <div class="collapse" id="mydiv">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid reiciendis ab harum velit qui inventore reprehenderit? Aperiam ullam numquam quibusdam.
+
+                    </div>
+                </div>
+                <div class="drop-example mb-5">
+                    <p class="display-5">Dropdown</p>
+                    <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">dropdown</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="droupdown-item">link 1</a></li>
+                        <li><a href="#" class="droupdown-item">link 2</a></li>
+                        <li><a href="#" class="droupdown-item">link 3</a></li>
+                        <li><a href="#" class="droupdown-item">link 4</a></li>
+                    </ul>
+    
+
+                </div>
+                <div class="modal-example">
+                    <p class="display-5">modal</p>
+                    <button class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#mymodal" >open modal</button>
+                    <div class="modal" id="mymodal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-tital">modal heading</h4>
+                                    <button class="btn-close" data-bs-dismiss="modal">  </button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, placeat deserunt minus nihil illo soluta. Doloribus corporis alias atque hic.
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
